@@ -6,7 +6,7 @@ from sklearn.decomposition import PCA
 import matplotlib.pyplot as plt
 
 # Carregar os dados do arquivo Excel com a primeira linha como cabeçalhos
-path = r"C:\Users\Cleane\OneDrive - AGENCIA DE ATRACAO INVESTIMENTOS ESTRATEGICO PIAUI\Área de Trabalho\aplications\kmeans\kmeansDB.xlsx"
+path = r"insert here your path"
 data = pd.read_excel(path)
 
 # Selecionar a primeira coluna como nomes das empresas
